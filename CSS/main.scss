@@ -87,7 +87,7 @@ header h1{
     background-color: #f0a500;
 }
 
-.yellow:hover{
+.yellow-light{
     background-color: #ffd478;
 }
 
@@ -96,7 +96,7 @@ header h1{
     background-color: #0278ae;
 }
 
-.blue:hover{
+.blue-light{
     background-color:#59c9fd;
 }
 
@@ -104,14 +104,14 @@ header h1{
     background-color: #a37eba;
 }
 
-.purple:hover{
+.purple-light{
     background-color:#d1bedc;
 }
 .green{
    background-color: #d2e603;
 }
 
-.green:hover{
+.green-light{
     background-color: #f1fd76;
 }
 
@@ -149,7 +149,8 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 20px;
-   
-    
-    
+}
+
+.hide{
+    display: none;
 }
