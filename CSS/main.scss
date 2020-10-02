@@ -1,0 +1,155 @@
+$container-color-width: 30vh;
+$container-color-height: 30vh;
+$left-item:end;
+$right-item:start;
+$border-radius: 100%;
+$font-family: 'Poppins', sans-serif;
+$align-center:center;
+$button-width: 500px;
+$button-heigth:60px;
+
+body{
+   margin: 0;
+   padding: 0;
+   font-family: $font-family;
+   background-color:#faf8da;
+   overflow-y: hidden;
+   position: relative;
+   min-height: 100vh;
+}
+
+header{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+header h1{
+    justify-self: $align-center;
+    align-self: $align-center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.time__container{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    justify-self: $align-center;
+    align-self: $align-center;
+}
+.game__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.game__container--color{
+    cursor: pointer;
+    width: $container-color-width;
+    height: $container-color-height;   
+}
+
+.item__left{
+    justify-self: $left-item;
+}
+
+.item__right{
+    justify-self: $right-item;
+}
+    
+.border-left-top{
+    border-radius: $border-radius 0 0px 0px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.border-right-top{
+    border-radius: 0px $border-radius 0px 0px;
+}
+
+
+.border-left-bottom{
+    border-radius: 0px 0px 0px $border-radius;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.border-right-bottom{
+    border-radius: 0px 0px $border-radius 0px ;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.yellow{
+    background-color: #f0a500;
+}
+
+.yellow:hover{
+    background-color: #ffd478;
+}
+
+
+.blue {
+    background-color: #0278ae;
+}
+
+.blue:hover{
+    background-color:#59c9fd;
+}
+
+.purple{
+    background-color: #a37eba;
+}
+
+.purple:hover{
+    background-color:#d1bedc;
+}
+.green{
+   background-color: #d2e603;
+}
+
+.green:hover{
+    background-color: #f1fd76;
+}
+
+
+.score__container{
+    grid-column-start: 4;
+    text-align: $align-center;
+    align-self: $align-center;
+}
+.button__container{
+    position: absolute;
+    top: 43vh;
+    left:33vw;
+}
+
+.button__container input{
+    width: $button-width;
+    height: $button-heigth;
+    padding: 0px 0px 10px 0px;
+    outline: none;
+    border-radius: 30px;
+    font-family: $font-family;
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    background-color: #d2e603;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+   
+    
+    
+}

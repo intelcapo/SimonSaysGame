@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../CSS/main.css">
+    <title>Simon Says Game</title>
+</head>
+<body>
+    <header>
+        <h1>Simon Says Game</h1>
+        <div class="score__container">
+            <h2 class="score__container--title">Score</h2>
+            <p  class="score__container--score"><span >000</span></p>
+        </div>
+        <div class="time__container">
+            <h2 class="time__container--title">Time</h2>
+            <p class="time__container--time">00:00:00</p>
+        </div>
+    </header>
+    
+    <div class="game__container">
+        <div class="game__container--color item__left border-left-top blue" data-color="blue"></div>
+        <div class="game__container--color item__right border-right-top purple" data-color="purple"></div>
+        <div class="game__container--color item__left border-left-bottom yellow" data-color="yellow"></div>
+        <div class="game__container--color item__right border-right-bottom green" data-color="green"></div>
+    </div>
+    <div class="button__container">
+        <input type="button" value="Play">
+    </div>
+    <footer>       
+        <p>By William Forero Dev</p>
+        <p>2020</p>
+        <p>See my others jobs <a href="#">here</a></p>
+    </footer>
+</body>
+</html>
