@@ -1,0 +1,26 @@
+{
+  "name": "simonsaysgame",
+  "version": "1.0.0",
+  "description": "this is a videoGame that put on practice my knowledge about JS+",
+  "main": "./HTML/Index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intelcapo/SimonSaysGame.git"
+  },
+  "keywords": [
+    "JS",
+    "HTML"
+  ],
+  "author": "willydev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intelcapo/SimonSaysGame/issues"
+  },
+  "homepage": "https://github.com/intelcapo/SimonSaysGame#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

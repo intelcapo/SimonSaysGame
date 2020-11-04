@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../CSS/main.css">
     
+    
     <title>Simon Says Game</title>
 </head>
 <body>
@@ -22,10 +23,10 @@
     </header>
     
     <div class="game__container">
-        <div class="game__container--color item__left border-left-top blue" data-color="blue"></div>
-        <div class="game__container--color item__right border-right-top purple" data-color="purple"></div>
-        <div class="game__container--color item__left border-left-bottom yellow" data-color="yellow"></div>
-        <div class="game__container--color item__right border-right-bottom green" data-color="green"></div>
+        <div class="game__container--color item__left border-left-top blue" id="blue" data-color="blue"></div>
+        <div class="game__container--color item__right border-right-top purple"  id="purple" data-color="purple"></div>
+        <div class="game__container--color item__left border-left-bottom yellow" id="yellow" data-color="yellow"></div>
+        <div class="game__container--color item__right border-right-bottom green" id="green" data-color="green"></div>
     </div>
     <div class="button__container">
         <input type="button" id="btnPlay" value="Play">
@@ -36,5 +37,6 @@
         <p>See my others jobs <a href="#">here</a></p>
     </footer>
     <script src="../JS/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

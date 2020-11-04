@@ -78,7 +78,7 @@ header h1 {
   background-color: #f0a500;
 }
 
-.yellow-light {
+.yellow.light {
   background-color: #ffd478;
 }
 
@@ -86,7 +86,7 @@ header h1 {
   background-color: #0278ae;
 }
 
-.blue-light {
+.blue.light {
   background-color: #59c9fd;
 }
 
@@ -94,7 +94,7 @@ header h1 {
   background-color: #a37eba;
 }
 
-.purple-light {
+.purple.light {
   background-color: #d1bedc;
 }
 
@@ -102,7 +102,7 @@ header h1 {
   background-color: #d2e603;
 }
 
-.green-light {
+.green.light {
   background-color: #f1fd76;
 }
 
